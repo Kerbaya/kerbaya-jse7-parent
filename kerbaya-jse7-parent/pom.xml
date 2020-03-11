@@ -16,6 +16,10 @@
 
 <packaging>pom</packaging>
 
+<properties>
+	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+</properties>
+
 <build>
 	<pluginManagement>
 		<plugins>
@@ -24,7 +28,6 @@
 				<configuration>
 					<source>1.7</source>
 					<target>1.7</target>
-					<encoding>UTF-8</encoding>
 					<showWarnings>true</showWarnings>
 					<compilerArgs>
 						<compilerArg>-Xlint:all</compilerArg>
@@ -36,6 +39,5 @@
 		</plugins>
 	</pluginManagement>
 </build>
-
 
 </project>
